@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Frozen Rose Ski Resort | Contact</title>
+        <meta name="author" content="Athena O'Brien">
+        <meta name="description" content="Contact page for a ski resort website">
+
+        <!-- link to stylesheet -->
+        <link rel="stylesheet" href="styles.css">
+        
+        <!--link to favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+
+        <!--link to Adobe fonts-->
+        <link rel="stylesheet" href="https://use.typekit.net/upc7jtb.css">
+        <link rel="stylesheet" href="https://use.typekit.net/upc7jtb.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1><a href="index.html">The Frozen Rose Ski Resort</a></h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                </ul>
+            </nav>
+                <img src="images/swiss-valley.jpg" alt="A snowy mountain valley filled with pine trees" width="1280" height="450">
+        </header>
+
+        <main>
+            <section id="contact">
+                <div class="head">
+                    <h2>Contact Us</h2>
+                        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+                            
+                        <img src="images/swiss-peak.jpg" alt="Snowy mountain with a lake and trees in front of it" width="330" height="432">
+                </div>
+
+                <div class="form">
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                        <label for="name"><span>Full Name*</span></label>
+                        <input type="text" name="name" id="name" required>
+	
+                        <label for="email"><span>Email Address*</span></label>
+                        <input type="email" name="email" id="email" required>
+	
+                        <label for="phone"><span>Phone Number*</span></label>
+                        <input type="tel" name="phone" id="phone" required>
+
+            
+                            <fieldset>
+                                <legend>Preferred Contact Method*</legend>
+
+                                    <div class="method1">         
+	                                    <input type="radio" name="contact-method" value="Email" id="first-method" checked required>
+	                                    <label for="first-method"><span>Email</span></label>
+                                    </div>
+
+                                    <div class="method2">                
+	                                    <input type="radio" name="contact-method" value="Phone" id="second-method" required>
+	                                    <label for="second-method"><span>Phone</span></label>
+                                    </div>
+            
+                            </fieldset>
+
+                        <label for="comments"><span>Comments*</span></label>
+                        <textarea name="comments" rows="3" cols="20" id="comments" required></textarea>
+
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+<footer>
+    <p>Copyright ©2023 - The Frozen Rose Ski Resort</p>
+    <p>This site is for educational purposes only</p>
+</footer>
+    
+    </body>
+</html>
